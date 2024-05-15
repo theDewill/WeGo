@@ -1,0 +1,9 @@
+{
+  "type": "none",
+  "DB": "postgres",
+  "endpoints": {
+    "login": "here user will provide the credentials via query parameters and they must validate and return a true/false boolean",
+    "signup": "here user will provide a json body with form data and they must be stored in the database"
+  },
+  "notes": "none"
+}

@@ -25,6 +25,8 @@ func main() {
 
 	router := mux.NewRouter()
 
+	epoint_obj := api.epoints("hello")
+
 	posts = append(posts, Post{ID: "1", Title: "thsi is title", Body: "this is body"})
 	router.HandleFunc("/posts", handleFirst_get).Methods("GET")
 
